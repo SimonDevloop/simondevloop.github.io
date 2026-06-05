@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 400;
+  color: #e0e0e0;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { min-height: 100vh; }
+a { color: inherit; }
+* { font-family: "Jetbrains Mono"; scrollbar-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0);}
+
+@font-face {
+    font-family: "Jetbrains Mono";
+    src: url("fonts/jetbrains.woff2");
+}
